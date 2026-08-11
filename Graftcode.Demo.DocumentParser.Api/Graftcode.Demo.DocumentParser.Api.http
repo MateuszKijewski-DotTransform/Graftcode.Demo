@@ -1,6 +1,0 @@
-@Graftcode.Demo.DocumentParser.Api_HostAddress = http://localhost:5030
-
-GET {{Graftcode.Demo.DocumentParser.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
