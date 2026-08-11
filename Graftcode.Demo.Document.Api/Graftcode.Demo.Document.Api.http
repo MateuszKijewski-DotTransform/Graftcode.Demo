@@ -1,0 +1,24 @@
+@Graftcode.Demo.Document.Api_HostAddress = http://localhost:5268
+
+### CreateDocument
+POST {{Graftcode.Demo.Document.Api_HostAddress}}/documents
+Content-Type: application/json
+
+{
+  "fileName": "hello",
+  "content": "Hello, World!"
+}
+
+###
+
+### CountDocuments
+GET {{Graftcode.Demo.Document.Api_HostAddress}}/documents/count
+Accept: application/json
+
+###
+
+### GetDocumentData
+GET {{Graftcode.Demo.Document.Api_HostAddress}}/documents/hello.txt
+Accept: application/json
+
+###

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Graftcode.Demo.Api/Graftcode.Demo.Api.csproj" />
+  <Project Path="Graftcode.Demo.Document.Api/Graftcode.Demo.Document.Api.csproj" />
+  <Project Path="Graftcode.Demo.Document.Application/Graftcode.Demo.Document.Application.csproj" />
+  <Project Path="Graftcode.Demo.Document.Domain/Graftcode.Demo.Document.Domain.csproj" />
+  <Project Path="Graftcode.Demo.Infrastructure/Graftcode.Demo.Infrastructure.csproj" />
+</Solution>
